@@ -26,7 +26,7 @@ import (
 
 const (
 	// Using is the bind info's in use status.
-	Using = "using"
+	Using = "using" 
 	// deleted is the bind info's deleted status.
 	deleted = "deleted"
 	// Invalid is the bind info's invalid status.
