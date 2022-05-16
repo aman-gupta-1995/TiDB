@@ -88,7 +88,7 @@ func renewWithCapacity(chk *Chunk, cap, maxChunkSize int) *Chunk {
 	newChk.columns = renewColumns(chk.columns, cap)
 	newChk.numVirtualRows = 0
 	newChk.capacity = cap
-	newChk.requiredRows = maxChunkSize
+	newChk.requiredRows = maxChunkSize 
 	return newChk
 }
 
