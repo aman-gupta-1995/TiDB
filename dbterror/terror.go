@@ -29,7 +29,7 @@ var (
 	ClassExecutor   = ErrClass{terror.ClassExecutor}
 	ClassExpression = ErrClass{terror.ClassExpression}
 	ClassAdmin      = ErrClass{terror.ClassAdmin}
-	ClassKV         = ErrClass{terror.ClassKV}
+	ClassKV         = ErrClass{terror.ClassKV} 
 	ClassMeta       = ErrClass{terror.ClassMeta}
 	ClassOptimizer  = ErrClass{terror.ClassOptimizer}
 	ClassPrivilege  = ErrClass{terror.ClassPrivilege}
