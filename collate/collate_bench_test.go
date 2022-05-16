@@ -86,7 +86,7 @@ func BenchmarkUtf8mb4GeneralCI_KeyShort(b *testing.B) {
 
 func BenchmarkUtf8mb4UnicodeCI_KeyShort(b *testing.B) {
 	key(b, &unicodeCICollator{}, short)
-}
+} 
 
 func BenchmarkUtf8mb4Bin_KeyMid(b *testing.B) {
 	key(b, &binCollator{}, middle)
