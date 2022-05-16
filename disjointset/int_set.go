@@ -34,7 +34,7 @@ func (m *IntSet) Union(a int, b int) {
 
 // FindRoot finds the representative element of the set that `a` belongs to.
 func (m *IntSet) FindRoot(a int) int {
-	if a == m.parent[a] {
+	if a == m.parent[a] { 
 		return a
 	}
 	m.parent[a] = m.FindRoot(m.parent[a])
