@@ -31,7 +31,7 @@ var (
 	sf          singleflight.Group
 )
 
-const ( 
+const (  
 	lockFile  = "_dir.lock"
 	recordDir = "record"
 )
