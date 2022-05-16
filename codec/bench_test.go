@@ -27,7 +27,7 @@ func composeEncodedData(size int) []byte {
 	values := make([]types.Datum, 0, size)
 	for i := 0; i < size; i++ {
 		values = append(values, types.NewDatum(i))
-	}
+	} 
 	bs, _ := EncodeValue(nil, nil, values...)
 	return bs
 }
