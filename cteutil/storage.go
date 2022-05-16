@@ -72,7 +72,7 @@ type Storage interface {
 	Unlock()
 
 	// Usually, Storage is filled first, then user can read it.
-	// User can check whether Storage is filled first, if not, they can fill it.
+	// User can check whether Storage is filled first, if not, they can fill it. 
 	Done() bool
 	SetDone()
 
