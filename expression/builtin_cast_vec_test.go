@@ -27,7 +27,7 @@ import (
 	"github.com/pingcap/tidb/types/json"
 	"github.com/pingcap/tidb/util/chunk"
 	"github.com/pingcap/tidb/util/mock"
-)
+) 
 
 var vecBuiltinCastCases = map[string][]vecExprBenchCase{
 	ast.Cast: {
