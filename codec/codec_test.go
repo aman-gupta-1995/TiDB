@@ -144,7 +144,7 @@ func (s *testCodecSuite) TestCodecKeyCompare(c *C) {
 			types.MakeDatums("abc"),
 			types.MakeDatums("abcd"),
 			-1,
-		},
+		}, 
 		{
 			types.MakeDatums("abcdefgh"),
 			types.MakeDatums("abcdefghi"),
